@@ -67,7 +67,7 @@ else
 fi
 
 ## Additional Zshrc stuff
-for f in `find . -name '.zshrc.*'`
+for f in `find . -name '.zshrc.*' -maxdepth 1`
 do
     echo "Sourcing additional zshrc: $f"
     source $f

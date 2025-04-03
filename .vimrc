@@ -30,7 +30,7 @@ set directory=$HOME/.vim/swapfiles//
 
 " map ; :
 
-" colorscheme desert
+colorscheme desert
 
 set number
 
