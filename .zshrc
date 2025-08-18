@@ -63,7 +63,7 @@ source $ZSH/oh-my-zsh.sh
 if [[ -n $SSH_CONNECTION ]]; then
     export EDITOR='vim'
 else
-    export EDITOR='nvim'
+    export EDITOR='vim'
 fi
 
 ## Additional Zshrc stuff
@@ -81,7 +81,6 @@ alias gd="git diff"
 alias gl="git log"
 alias gpr="git pull --rebase"
 
-alias vim=nvim
 alias zshrc="vim ~/.zshrc"
 alias bk='cd -'
 alias ll='ls -lah'
