@@ -26,6 +26,10 @@ set backspace=indent,eol,start
 set shiftwidth=4
 set tabstop=4
 set expandtab
+
+if !isdirectory($HOME . '/.vim/swapfiles/')
+    call mkdir($HOME . '/.vim/swapfiles/', 'p')
+endif
 set directory=$HOME/.vim/swapfiles//
 
 " map ; :
