@@ -4,6 +4,6 @@ My customer dotfiles repository
 
 Clone this repository into your home directory and then run:
 ```
-cd MicadavDotFiles/
+cd dotfiles/
 stow .
 ```
