@@ -85,4 +85,5 @@ alias zshrc="vim ~/.zshrc"
 alias bk='cd -'
 alias ll='ls -lah'
 
+source <(fzf --zsh)
 alias pass='rbw unlock && rbw get $(rbw list | fzf +s -e) | pbcopy && echo "Password copied!"'
